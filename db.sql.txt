@@ -1,0 +1,27 @@
+create table customer
+(customer_id int primary key,
+customer_name varcahr(20),
+customer_pass varchar(20),
+booking_id int,
+constraint fk_b foreign key (booking_id) references traveling(booking_id)
+on delete set null on update cascade);
+
+create table train
+(train_no int primary key,
+train_name varchar(20),
+train_time int);
+
+create table bus
+(bus_no int primary key,
+bus_name varchar(20),
+bus_time int);
+
+create table airline
+(airline_no int primary key,
+airline_name varchar(20),
+airline_time int);
+
+create table traveling
+(booking_id int primary key,
+payment_detail varcahr(20),
+seats int);

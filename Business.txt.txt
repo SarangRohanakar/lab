@@ -1,0 +1,10 @@
+1.Sign up
+2.Sign IN
+3.view Options
+4.show available seats
+5.chose payment method
+6.complete payment
+7.recieve payment receipt
+8.recieve booking id
+9.update with timing 
+10.ticket details

@@ -1,0 +1,29 @@
+ DOCUMENT : SYSYTEM REQUIREMENT SPECIFICATION
+
+TITLE: Online Ticket Booking System
+
+Objective: TO make an application which is able to book any ticket whether 
+	train or nus or airline for traveling pupose.Objective is to ease the 
+	process of booking ticket for traveling.
+
+Functional Requirements:
+			Customers have to first sign up to the application.
+After sign up customer can see all the available options like bus, train, airlines.
+Then customer will get options for different train or buses or airlines names.
+After choosing the desired option customer will see the avilable seats and their prices.
+Customer will choose the seats then application leads him to payment 
+process.customer choose the option for payment.
+After payment customer recieves the transaction details.
+
+Non-Functional Requirements:
+			     Application will provide easy acceess to
+travelling tickets.Customer can see all the traveling options as he 
+enters the application.Application will be linked to the government 
+or private companies owning the bus or train respectively.
+Constant update will be given to customer from the respective staff.
+After booking ticket payment security will be given by the application.
+Customer will recieve the transaction detail and booking id with ticket
+details.Once ticket booked by the customer application will update the 
+specific seat booked.The staff of the traveling agency owner are able
+to modify availibility of tickets.
+			     
